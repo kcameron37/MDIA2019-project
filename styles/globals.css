@@ -4,15 +4,18 @@
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-
+      --primary: rgb(249, 155, 14);
+      --secondary: rgb(231, 206, 17);
+          }
+          
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
-    #16abff33 0deg,
-    #0885ff33 55deg,
+    #cf9014 0deg,
+    #ffad0833 55deg,
     #54d6ff33 120deg,
     #0071ff33 160deg,
     transparent 360deg
@@ -49,9 +52,9 @@
     --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
     --secondary-glow: linear-gradient(
       to bottom right,
+       rgba(255, 251, 1, 0),
       rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0.3)
+      rgba(1, 65, 255, 0.3)          
     );
 
     --tile-start-rgb: 2, 13, 46;
