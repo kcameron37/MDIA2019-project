@@ -13,4 +13,5 @@ JavaScript
 
 ## Commands
  npm run dev 
+ npx create-next-app
 
