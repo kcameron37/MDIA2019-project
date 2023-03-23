@@ -7,6 +7,13 @@ import React from 'react'
 export default function Warning() {
     return (
        <>
+         <Head>
+        <title>Open Doors</title>
+        <meta name="description" content="Unlocking a better tomorrow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.png" />
+      </Head>
+      
        <main className={styles.main}>
           
             
