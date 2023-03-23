@@ -1,10 +1,10 @@
-import styles from '../styles/navbar.module.css' 
+import styles from '../styles/warning.module.css' 
 import Head from 'next/head'
 import Image from 'next/image'
 import React from 'react'
 
 
-export default function Navbar() {
+export default function Warning() {
     return (
        <>
        <main className={styles.main}>
