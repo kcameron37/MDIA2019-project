@@ -1,7 +1,8 @@
-import styles from '../styles/navbar.module.css' 
+import styles from './Navbar.module.css';
 import Head from 'next/head'
 import Image from 'next/image'
 import React from 'react'
+import Link from 'next/link'
 
 
 export default function Navbar() {
@@ -9,9 +10,16 @@ export default function Navbar() {
        <>
        <main className={styles.main}>
           
-            
-         <body className={styles.body}>
-         </body>
+       <nav className="navbar">
+      <div className="logo">
+        <Link href="/">
+          <p>Logo</p>
+        </Link>
+      </div>
+      <div className="menu-icon">
+        
+      </div>    
+     </nav> 
          </main>
        </>
      )
