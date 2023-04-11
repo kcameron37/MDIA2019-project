@@ -30,7 +30,7 @@ export default function Home() {
           <div className={styles.homeImage}>
           <Image
           src="/images/home.png"
-          alt="Logo"
+          alt="HomeImage"
           className={styles.logo}
           width={414}
           height={896}
