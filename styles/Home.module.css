@@ -41,3 +41,14 @@
     position: absolute;
     top: 0px;
   }
+
+  .text {
+    position: absolute;
+    top: 520px;
+    background-color:transparent;
+    color: white;
+      }
+
+  .header{
+    margin-bottom: 10%;
+  }

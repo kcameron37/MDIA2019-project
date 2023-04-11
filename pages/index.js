@@ -4,12 +4,12 @@ import styles from '../styles/Home.module.css';
 
 export default function Home() {
   const [showLogo, setShowLogo] = useState(true);
-  const [backgroundColor, setBackgroundColor] = useState('#33718A');
+  const [backgroundColor, setBackgroundColor] = useState('#EAD9C5');
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowLogo(false);
-      setBackgroundColor('white');
+      setBackgroundColor('#33718A');
     }, 6000);
 
     return () => clearTimeout(timer);
@@ -33,11 +33,17 @@ export default function Home() {
           alt="Logo"
           className={styles.logo}
           width={414}
-          height={414}
+          height={896}
         />
           </div>
+          <div className={styles.text}>
+            <div className={styles.header}>
           <h1 className={styles.header}>Welcome to Open Doors!</h1>
-          <p className={styles.paragraph}>We are here to help, so let's get started</p>
+          </div>
+          <div className={styles.header}>
+          <p className={styles.paragraph}>We are here to help,<br></br> so let's get started</p>
+          </div>
+          </div>
         </>
       )}
     </div>
