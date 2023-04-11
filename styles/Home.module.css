@@ -1,88 +1,70 @@
 .container {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-  }
-  
-  .logo {
-    max-width: 100%;
-    max-height: 100%;
-  }
-  
-  .text {
-    font-size: 2rem;
-    color: #33718A;
-  }
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
 
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    width: 100%;
-  }
-  
-  .logo {
-    display: block;
-  }
-  
-  .header {
-    text-align: center;
-  }
-  
-  .paragraph {
-    text-align: center;
-  }
+.logo {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
 
-  .homeImage {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('/images/home.png');
-    background-size: cover;
-    background-position: center;
+.header {
+  text-align: center;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+.homeImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/home.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.text {
+  position: absolute;
+  top: 520px;
+  background-color: transparent;
+  color: white;
+  font-size: 2rem;
+}
+
+.button {
+  background-color: #b4772d;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 320px;
+  left: 100px;
+}
+
+.slideDown {
+  animation: slideDown 0.5s ease forwards;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
   }
-
-
-  .text {
-    position: absolute;
-    top: 520px;
-    background-color:transparent;
-    color: white;
-      }
-
-  
-  /* to remove once button component added**/
-  .button {
-    background-color: #b4772d;
-    border: none;
-    color: white;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 20px;
-    padding: 10px 20px;
-    cursor: pointer;
-    position: absolute;
-    top: 320px;
-    left: 100px;
+  to {
+    transform: translateY(0%);
   }
-
-  .slideDown {
-    animation: slideDown 0.5s ease forwards;
-  }
-  
-  @keyframes slideDown {
-    from {
-      transform: translateY(-100%);
-    }
-    to {
-      transform: translateY(0%);
-    }
-  }
-
+}
