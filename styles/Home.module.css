@@ -59,3 +59,16 @@
   .header{
     margin-bottom: 10%;
   }
+
+  .slideDown {
+    animation: slideDown 0.5s ease forwards;
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0%);
+    }
+  }
