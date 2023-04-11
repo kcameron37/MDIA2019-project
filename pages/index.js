@@ -27,16 +27,8 @@ export default function Home() {
         />
       ) : (
         <>
-          <div className={styles.homeImage}>
-          <Image
-          src="/images/home.png"
-          alt="HomeImage"
-          className={styles.logo}
-          width={414}
-          height={896}
-        />
-          </div>
-          <div className={styles.text}>
+          <div className={styles.homeImage}/>
+                      <div className={styles.text}>
             <div className={styles.header}>
           <h1 className={styles.header}>Welcome to Open Doors!</h1>
           </div>
