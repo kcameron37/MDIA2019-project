@@ -43,7 +43,7 @@ export default function Home() {
                 alt="Home"
                 className={styles.logo}
                 width={414}
-                height={892}
+                height={894}
               />
             </div>
             <div className={styles.text}>
