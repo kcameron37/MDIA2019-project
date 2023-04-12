@@ -3,3 +3,16 @@
     color: var( --quinary-color);
 }
 
+.text {
+    position: absolute;
+    top: 500px;
+    text-align: center;
+    margin: 5%;
+    background-color: transparent;
+    color: white;
+    font-size: 2rem;
+    font-size: 25px;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    border: 10px solid white;
+  }

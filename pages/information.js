@@ -19,6 +19,12 @@ export default function Information() {
           width={414}
           height={894}
         />
+
+        <div className={styles.text}>
+          <h2>Did you know,<br></br> you are not alone?</h2>
+          <p>10.8 percent of familes in BC are consideder to be low income and need additional support</p>
+          
+        </div>
       </div>
       </div>
     </>
