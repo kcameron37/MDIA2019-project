@@ -16,3 +16,9 @@
     border-radius: 20px;
     border: 10px solid white;
   }
+
+  .arrow{
+    position: absolute;
+    top: 835px;
+    right: 5px
+  }
