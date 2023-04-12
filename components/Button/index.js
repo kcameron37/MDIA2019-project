@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from '../styles/OrangeButton.module.css';
+import styles from './button.module.css';
 
-export default function Information({ children, onClick })  {
+export default function Button({ onClick, text }) {
   return (
-    <button className={styles.button} onClick={onClick}>
-      {children}
+    <button className={styles.buttonLarge} onClick={onClick}>
+         {text}
     </button>
   );
-};
+}

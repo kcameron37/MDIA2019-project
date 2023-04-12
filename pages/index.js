@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Head from 'next/head';
+import Button from '@/components/Button';
 
 export default function Home() {
   const [showLogo, setShowLogo] = useState(true);
@@ -58,8 +59,8 @@ export default function Home() {
                 </p>
               </div>
               <Link href="/information">
-                <button className={styles.button}>Go to Information Page</button>
-              </Link>
+              <Button text="Learn More" />
+                </Link>
             </div>
           </>
         )}
