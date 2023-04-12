@@ -32,8 +32,8 @@ export default function Home() {
             src="/logo/front-logo.png"
             alt="Logo"
             className={styles.logo}
-            width={414}
-            height={500}
+            width={300}
+            height={300}
           />
         ) : (
           <>
