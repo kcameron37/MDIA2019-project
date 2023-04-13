@@ -15,7 +15,7 @@ export default function InformationTwo() {
       <div className={styles.main}>
       <div className={styles.infoBackground}>
         <Image
-          src="/images/info-background.png"
+          src="/images/info-background2.png"
           alt="Info"
           width={414}
           height={894}
@@ -23,7 +23,7 @@ export default function InformationTwo() {
 
         <div className={styles.text}>
           <h2>Did you know,<br></br> you are not alone?</h2>
-          <p>ADD A FACT</p>
+          <p>5.8 million Canadians suffer from  food-insecure, including 1.4 million children </p>
           </div>
           <div className={styles.arrow}>
           <Arrow/>
