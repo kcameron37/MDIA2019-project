@@ -1,10 +1,69 @@
-@media only screen and (max-width: 414px) {
+.container {
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding:0%;
+  background-color: var( --ternary-color);
+}
 
+.logo {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
 
-.main {
-display: flex;
-flex-direction: column; 
+.header {
+  text-align: center;
+}
+
+.paragraph {
+  text-align: center;
 }
 
 
+
+.text {
+  position: absolute;
+  top: 450px;
+  background-color: transparent;
+  color: white;
+  font-size: 2rem;
+}
+
+.backgroundImage{
+  position: absolute;
+  top: 0px;
+}
+
+
+.button {
+  background-color: #b4772d;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 320px;
+  left: 100px;
+}
+
+.slideDown {
+  animation: slideDown 0.5s ease forwards;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
 }
