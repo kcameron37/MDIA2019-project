@@ -1,14 +1,13 @@
 import Image from 'next/image';
-import styles from '../styles/information.module.css';
+import styles from '../styles/informationTwo.module.css';
 import Head from 'next/head';
 import Arrow from '@/components/Arrow';
-import Link from 'next/link';
 
-export default function Information() {
+export default function InformationTwo() {
   return (
     <>
      <Head>
-        <title>Information - Open Doors</title>
+        <title>More Information - Open Doors</title>
         <meta name="description" content="Unlocking a better tomorrow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
@@ -24,12 +23,10 @@ export default function Information() {
 
         <div className={styles.text}>
           <h2>Did you know,<br></br> you are not alone?</h2>
-          <p>10.8 percent of familes in BC are consideder to be low income and need additional support</p>
+          <p>ADD A FACT</p>
           </div>
           <div className={styles.arrow}>
-          <Link href="/informationTwo">
           <Arrow/>
-          </Link>
           </div>
       </div>
       </div>

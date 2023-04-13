@@ -6,7 +6,7 @@ import Image from 'next/image';
 export default function Arrow({ onClick, text }) {
   return (
 <div className={styles.arrowContainer}>
-  <Link href="/info2">
+ 
 
       <Image
         src="/icons/arrow-white.svg"
@@ -15,6 +15,6 @@ export default function Arrow({ onClick, text }) {
         height={50}
       />
 
-  </Link>
+  
 </div>
   )}
