@@ -1,10 +1,11 @@
 import Image from 'next/image';
-import styles from '../styles/information.module.css';
+import styles from '../styles/infograph.module.css';
 import Head from 'next/head';
 import Arrow from '@/components/Arrow';
 import Link from 'next/link';
 import BackArrow from '@/components/BackArrow';
 import Navbar from '@/components/Navbar';
+import BarGraph from '@/components/BarGraph';
 
 export default function InfoGraph() {
   return (
@@ -25,12 +26,9 @@ export default function InfoGraph() {
           height={894}
         />
 
-        <div className={styles.text}>
-          <h2>Did you know,<br></br> you are not alone?</h2>
-          </div>
-          <div className={styles.para}>
-          <p>10.8 percent of familes in BC are consideder to be low income and need additional support</p>
-          </div>
+        <BarGraph/>
+
+
           <div className={styles.arrow}>
           <Link href="/informationTwo">
           <Arrow/>
