@@ -30,12 +30,12 @@ export default function InfoGraph() {
 
 
           <div className={styles.arrow}>
-          <Link href="/informationTwo">
+          <Link href="/homePage">
           <Arrow/>
           </Link>
           </div>
           <div className={styles.backarrow}>
-          <Link href="/">
+          <Link href="/infograph">
           <BackArrow/>
           </Link>
           </div>
