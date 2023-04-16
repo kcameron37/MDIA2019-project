@@ -1,10 +1,9 @@
 import Image from 'next/image';
-import styles from '../styles/information.module.css';
+import styles from '../styles/homepage.module.css';
 import Head from 'next/head';
-import Arrow from '@/components/Arrow';
 import Link from 'next/link';
-import BackArrow from '@/components/BackArrow';
 import Navbar from '@/components/Navbar';
+import Button from '@/components/Button';
 
 export default function HomePage() {
   return (
@@ -17,13 +16,37 @@ export default function HomePage() {
       </Head>
       <div className={styles.main}>
       <Navbar/>
+      <div className={styles.container}>
+     
+      <Image
+          src="/logo/front-logo.png"
+          alt="Logo"
+          width={414}
+          height={150}
+        />
+      </div>
+     
       <div className={styles.infoBackground}>
         <Image
-          src="/images/homepage.png"
+          src="/images/homepage1.png"
           alt="Info"
           width={414}
           height={894}
         />
+
+   
+
+      <div className={styles.buttonQuiz}>
+      <Link href="/information">
+              <Button text="Take the Quiz" />
+                </Link>
+      </div>
+
+      <div className={styles.buttonLearn}>
+      <Link href="/information">
+              <Button text="Find Help" />
+                </Link>
+        </div>
 
      
       
