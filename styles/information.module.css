@@ -3,6 +3,10 @@
     color: var( --quinary-color);
 }
 
+.main{
+  position: fixed;
+}
+
 .text {
     position: absolute;
     top: 525px;

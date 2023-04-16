@@ -2,6 +2,8 @@ import Image from 'next/image';
 import styles from '../styles/informationTwo.module.css';
 import Head from 'next/head';
 import Arrow from '@/components/Arrow';
+import Navbar from '@/components/Navbar';
+
 
 export default function InformationTwo() {
   return (
@@ -14,17 +16,19 @@ export default function InformationTwo() {
       </Head>
       <div className={styles.main}>
       <div className={styles.infoBackground}>
+
+    <Navbar/>
+
         <Image
-          src="/images/info-background2.png"
+          src="/images/info-background-2.png"
           alt="Info"
           width={414}
           height={894}
         />
 
         <div className={styles.text}>
-          <h2>Did you know,<br></br> you are not alone?</h2>
-          <p>5.8 million Canadians suffer from  food-insecure, including 1.4 million children </p>
-          </div>
+          <h3>Did you know, 1 in 4 Canadians suffer from food-insecurity?</h3>
+             </div>
           <div className={styles.arrow}>
           <Arrow/>
           </div>

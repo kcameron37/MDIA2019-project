@@ -37,6 +37,7 @@ export default function Home() {
           />
         ) : (
           <>
+          
             <div className={styles.homeImage} />
             <div className={styles.backgroundImage}>
               <Image
