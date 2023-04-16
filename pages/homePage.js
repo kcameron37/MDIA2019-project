@@ -32,7 +32,7 @@ export default function HomePage() {
    
 
       <div className={styles.buttonQuiz}>
-      <Link href="/information">
+      <Link href="/quiz1">
               <Button text="Take the Quiz" />
                 </Link>
       </div>
