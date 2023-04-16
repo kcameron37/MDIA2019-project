@@ -1,6 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+
 * {
   box-sizing: border-box;
 }
+
+h1{
+  font-family: 'Calistoga', cursive;
+  font-weight: lighter;
+}
+
+h2{
+  font-family: 'Calistoga', cursive;
+  font-weight: lighter;
+  }
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+h4{}
+
 
 
   @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
