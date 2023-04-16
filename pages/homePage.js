@@ -17,13 +17,8 @@ export default function HomePage() {
       <div className={styles.main}>
       <Navbar/>
       <div className={styles.container}>
-     
-      <Image
-          src="/logo/front-logo.png"
-          alt="Logo"
-          width={414}
-          height={150}
-        />
+      <h2> Remember that you are not alone.</h2>
+      <h3> We are here to support you every step of the way <br></br>so let's get started.</h3>
       </div>
      
       <div className={styles.infoBackground}>

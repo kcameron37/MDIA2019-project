@@ -3,3 +3,22 @@ position: fixed;
 top: 400px
 }
 
+.buttonQuiz{
+    position: fixed;
+    top: 300px;
+     padding: 50%;
+
+}
+
+.buttonLearn{
+    position: fixed;
+    top: 390px;
+    left: 10px;
+    padding: 40%;
+}
+
+.container{
+    color: white;
+    margin: 5%;
+    text-align: center;
+}
