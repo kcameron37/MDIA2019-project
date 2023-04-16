@@ -1,48 +1,46 @@
 import Image from 'next/image';
-import styles from '../styles/informationTwo.module.css';
+import styles from '../styles/information.module.css';
 import Head from 'next/head';
 import Arrow from '@/components/Arrow';
-import Navbar from '@/components/Navbar';
-import BackArrow from '@/components/BackArrow';
 import Link from 'next/link';
+import BackArrow from '@/components/BackArrow';
+import Navbar from '@/components/Navbar';
 
-
-export default function InformationTwo() {
+export default function InfoGraph() {
   return (
     <>
      <Head>
-        <title>More Information - Open Doors</title>
+        <title>Information - Open Doors</title>
         <meta name="description" content="Unlocking a better tomorrow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className={styles.main}>
+      <Navbar/>
       <div className={styles.infoBackground}>
-
-    <Navbar/>
-
         <Image
-          src="/images/info-background-2.png"
+          src="/images/info-background-1.png"
           alt="Info"
           width={414}
           height={894}
         />
 
         <div className={styles.text}>
-          <h3>Did you know, 1 in 4 Canadians suffer from food-insecurity?</h3>
-             </div>
+          <h2>Did you know,<br></br> you are not alone?</h2>
+          </div>
+          <div className={styles.para}>
+          <p>10.8 percent of familes in BC are consideder to be low income and need additional support</p>
+          </div>
           <div className={styles.arrow}>
-          <Link href="/infograph">
+          <Link href="/informationTwo">
           <Arrow/>
           </Link>
           </div>
-
           <div className={styles.backarrow}>
-          <Link href="/information">
+          <Link href="/">
           <BackArrow/>
           </Link>
           </div>
-          
       </div>
       </div>
     </>
