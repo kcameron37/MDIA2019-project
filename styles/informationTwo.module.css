@@ -26,3 +26,9 @@
     bottom: 90px;
     right: 5px
   }
+
+  .backarrow{
+    position: fixed;
+    bottom: 80px;
+    left: 5px
+  }

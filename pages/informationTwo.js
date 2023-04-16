@@ -3,6 +3,8 @@ import styles from '../styles/informationTwo.module.css';
 import Head from 'next/head';
 import Arrow from '@/components/Arrow';
 import Navbar from '@/components/Navbar';
+import BackArrow from '@/components/BackArrow';
+import Link from 'next/link';
 
 
 export default function InformationTwo() {
@@ -32,6 +34,13 @@ export default function InformationTwo() {
           <div className={styles.arrow}>
           <Arrow/>
           </div>
+
+          <div className={styles.backarrow}>
+          <Link href="/information">
+          <BackArrow/>
+          </Link>
+          </div>
+          
       </div>
       </div>
     </>
