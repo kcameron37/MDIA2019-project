@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Button from '@/components/Button';
 
+
 export default function HomePage() {
   return (
     <>
@@ -31,18 +32,18 @@ export default function HomePage() {
 
    
 
-      <div className={styles.buttonQuiz}>
-      <Link href="/quiz1">
-              <Button text="Take the Quiz" />
-                </Link>
-      </div>
 
       <div className={styles.buttonLearn}>
-      <Link href="/information">
+      <Link href="/quiz1">
               <Button text="Find Help" />
                 </Link>
         </div>
 
+        <div className={styles.buttonQuiz1}>
+      <Link href="/quiz1">
+              <Button text="Quiz" />
+                </Link>
+        </div>
      
       
       </div>
