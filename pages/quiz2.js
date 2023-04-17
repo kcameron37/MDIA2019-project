@@ -2,7 +2,7 @@ import Image from 'next/image';
 import styles from '../styles/quiz.module.css';
 import Head from 'next/head';
 import Link from 'next/link';
-import Navbar from '@/components/Footer';
+import Footer from '@/components/Footer';
 import React, { useState } from 'react';
 import { useRouter } from 'next/router';
 
@@ -71,7 +71,7 @@ export default function Quiz2() {
             </button>
           </div>
         </div>
-        <Navbar/>
+        <Footer/>
       </div>
     </>
   );
