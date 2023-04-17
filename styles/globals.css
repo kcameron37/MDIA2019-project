@@ -9,12 +9,12 @@
 }
 
 h1{
-  font-family: 'Calistoga', cursive;
+  font-family: 'Sanchez';
   font-weight: lighter;
 }
 
 h2{
-  font-family: 'Calistoga', cursive;
+  font-family: 'Sanchez';
   font-weight: lighter;
   }
 
@@ -24,7 +24,10 @@ h3{
   font-size: 16px;
 }
 
-h4{}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
 
 
 

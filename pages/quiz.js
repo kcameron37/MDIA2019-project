@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Head from 'next/head';
 import Button from '@/components/Button';
 import styles from '@/styles/quiz.module.css'
-import Navbar from '@/components/Navbar';
+import Navbar from '@/components/Footer';
 import Link from 'next/link';
 
 export default function Quiz() {

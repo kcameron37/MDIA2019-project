@@ -22,14 +22,14 @@ export default function Quiz4() {
   return (
     <>
       <Head>
-        <title>Home HomePage - Open Doors</title>
+        <title>Quiz - Open Doors</title>
         <meta name="description" content="Unlocking a better tomorrow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className={styles.main}>
         <div className={styles.container}>
-          <Link className={styles.backButton} href="/quiz2">
+          <Link className={styles.backButton} href="/quiz3">
             <Image
               src={"/icons/back-button-orange.svg"}
               width={50}

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import styles from '../styles/homepage.module.css';
 import Head from 'next/head';
 import Link from 'next/link';
-import Navbar from '@/components/Navbar';
+import Navbar from '@/components/Footer';
 import Button from '@/components/Button';
 
 
@@ -15,11 +15,11 @@ export default function HomePage() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <div className={styles.main}>
+      <div className={styles.main}> 
       <Navbar/>
       <div className={styles.container}>
-      <h2> Remember that you are not alone.</h2>
-      <h3> We are here to support you every step of the way <br></br>so let's get started.</h3>
+        <h1>Open Doors</h1>
+      <h2> You are not the only one going through this. So let's get started and find support.</h2>
       </div>
      
       <div className={styles.infoBackground}>

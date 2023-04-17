@@ -5,4 +5,7 @@
     bottom: 160px;
     left: 30px;
    background-color: white;
+   border-radius: 20px;
+   border: 10px solid #FF9D60 ;
+   padding: 2%;
 }

@@ -4,6 +4,7 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Head from 'next/head';
 import Button from '@/components/Button';
+import Layout from './layout';
 
 export default function Home() {
   const [showLogo, setShowLogo] = useState(true);
@@ -54,15 +55,18 @@ export default function Home() {
               </div>
               <div className={styles.header}>
                 <p className={styles.paragraph}>
-                  We are here to help,
-                  <br />
-                  so let's get started
+                  We are here to help, so let's get started
                 </p>
               </div>
+              <div className={styles.mainButton}>
               <Link href="/information">
               <Button text="Learn More" />
                 </Link>
+                </div>
             </div>
+            <Layout>
+              <h1>Support Page</h1>
+            </Layout>
           </>
         )}
       </div>

@@ -22,7 +22,7 @@ export default function Quiz3() {
   return (
     <>
       <Head>
-        <title>Home HomePage - Open Doors</title>
+        <title>Quiz - Open Doors</title>
         <meta name="description" content="Unlocking a better tomorrow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />

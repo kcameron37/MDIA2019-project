@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Arrow from '@/components/Arrow';
 import Link from 'next/link';
 import BackArrow from '@/components/BackArrow';
-import Navbar from '@/components/Navbar';
+import Navbar from '@/components/Footer';
 
 export default function Information() {
   return (
@@ -27,10 +27,8 @@ export default function Information() {
 
         <div className={styles.text}>
           <h2>Did you know,<br></br> you are not alone?</h2>
-          </div>
-          <div className={styles.para}>
-          <p>10.8 percent of familes in BC are consideder to be low income and need additional support</p>
-          </div>
+                    <p>10.8 % of familes in BC are classified low income and need additional support</p>
+                 </div>
           <div className={styles.arrow}>
           <Link href="/informationTwo">
           <Arrow/>
