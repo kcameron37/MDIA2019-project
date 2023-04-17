@@ -36,7 +36,7 @@ export default function Quiz4() {
               height={50}
             />
           </Link>
-          <Link href="/">
+          <Link href="/homePage">
             <Image
               src={"/logo/top-logo.svg"}
              width={75}
