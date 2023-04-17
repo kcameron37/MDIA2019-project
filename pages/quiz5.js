@@ -2,7 +2,7 @@ import Image from 'next/image';
 import styles from '../styles/homepage.module.css';
 import Head from 'next/head';
 import Link from 'next/link';
-import Navbar from '@/components/Navbar';
+import Navbar from '@/components/Footer';
 import Button from '@/components/Button';
 import React, { useState } from 'react';
 import { useRouter } from 'next/router';

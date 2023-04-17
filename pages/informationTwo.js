@@ -2,7 +2,7 @@ import Image from 'next/image';
 import styles from '../styles/informationTwo.module.css';
 import Head from 'next/head';
 import Arrow from '@/components/Arrow';
-import Navbar from '@/components/Navbar';
+import Navbar from '@/components/Footer';
 import BackArrow from '@/components/BackArrow';
 import Link from 'next/link';
 

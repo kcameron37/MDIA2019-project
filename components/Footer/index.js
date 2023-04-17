@@ -1,13 +1,14 @@
 import Link from 'next/link';
-import styles from './Navbar.module.css';
+import styles from './Footer.module.css';
+import Button from '@/components/Button';
 
-export default function Navbar() {
+export default function Footer() {
   return (
     <footer className={styles.footer}>
       <nav className={styles.nav}>
         <ul className={styles.navList}>
           <li className={styles.navListItem}>
-            <Link href="/">
+            <Link href="/homePage">
               <p>Home</p>
             </Link>
           </li>
@@ -21,3 +22,5 @@ export default function Navbar() {
     </footer>
   );
 }
+
+

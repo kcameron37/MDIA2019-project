@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Arrow from '@/components/Arrow';
 import Link from 'next/link';
 import BackArrow from '@/components/BackArrow';
-import Navbar from '@/components/Navbar';
+import Navbar from '@/components/Footer';
 
 export default function Information() {
   return (
