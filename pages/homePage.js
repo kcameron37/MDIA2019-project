@@ -2,7 +2,7 @@ import Image from 'next/image';
 import styles from '../styles/homepage.module.css';
 import Head from 'next/head';
 import Link from 'next/link';
-import Navbar from '@/components/Footer';
+import Footer from '@/components/Footer';
 import Button from '@/components/Button';
 
 
@@ -16,7 +16,7 @@ export default function HomePage() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className={styles.main}> 
-      <Navbar/>
+      <Footer/>
       <div className={styles.container}>
         <h1>Open Doors</h1>
       <h2> You are not the only one going through this. So let's get started and find support.</h2>

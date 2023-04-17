@@ -2,7 +2,7 @@ import Image from 'next/image';
 import styles from '../styles/homepage.module.css';
 import Head from 'next/head';
 import Link from 'next/link';
-import Navbar from '@/components/Footer';
+import Footer from '@/components/Footer';
 import Button from '@/components/Button';
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
@@ -26,7 +26,7 @@ export default function Results() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className={styles.main}>
-        <Navbar />
+        <Footer />
         <div className={styles.infoBackground}>
           <Image src="/images/homepage1.png" alt="Info" width={414} height={894} />
           <div className={styles.container}>
