@@ -15,11 +15,30 @@ export default function Quiz() {
                 <link rel="icon" href="/favicon.png" />
             </Head>
             <div className={styles.main}>
-                <Image
-                    src={"/Quiz status.svg"}
-                    width={240}
-                    height={80}
-                />
+                <div className={styles.container}>
+                    <Image
+                        src={"/favicon.png"}
+                        width={75}
+                        height={75}
+                    />
+                    <Image
+                        src={"/images/quiz-status.svg"}
+                        width={240}
+                        height={80}
+                    />
+                    <div className={styles.questionContainer}>
+                        <Image
+                            src={"/images/quiz-page1.png"}
+                            width={150}
+                            height={200}
+                        />
+                        <div className={styles.question}>
+                            <h1>Question 1:</h1>
+                            <h2>What is your age range?</h2> 
+                        </div>
+                    </div>
+                    
+                </div>
                 <Navbar/>
             </div>
         </>
