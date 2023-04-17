@@ -29,7 +29,8 @@ export default function InformationTwo() {
         />
 
         <div className={styles.text}>
-          <h3>Did you know, 1 in 4 Canadians suffer from food-insecurity?</h3>
+          <h2>You are not alone.</h2>
+            <p> In 2022, 1 in 4 Canadians suffered from food-insecurity and did not know where their next meal was coming from</p>
              </div>
           <div className={styles.arrow}>
           <Link href="/infograph">

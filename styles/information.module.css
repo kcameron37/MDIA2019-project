@@ -9,8 +9,8 @@
 
 .text {
     position: absolute;
-    top: 450px;
-    left: 40px;
+    top: 470px;
+    left: 10px;
     text-align: center;
     margin: 5%;
     padding-left: 5%;
@@ -25,22 +25,14 @@
 
   .arrow{
     position: fixed;
-    bottom: 80px;
+    top: 10px;
     right: 5px
   }
 
   .backarrow{
     position: fixed;
-    bottom: 80px;
+    top: 10px;
     left: 5px
   }
 
-  .para{
-    position: fixed;
-    bottom: 100px;
-    left: 5px;
-    margin: 10%;
-    text-align: center;
-    color: var(--quinary-color);
-    font-size: 20px;
-  }
+ 

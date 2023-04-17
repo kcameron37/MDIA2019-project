@@ -23,12 +23,12 @@
 
   .arrow{
     position: absolute;
-    bottom: 90px;
+    top: 10px;
     right: 5px
   }
 
   .backarrow{
     position: fixed;
-    bottom: 80px;
+    top: 10px;
     left: 5px
   }
