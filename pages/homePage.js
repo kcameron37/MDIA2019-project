@@ -24,7 +24,7 @@ export default function HomePage() {
      
       <div className={styles.infoBackground}>
         <Image
-          src="/images/homepage1.png"
+          src="/images/homePage1.png"
           alt="Info"
           width={414}
           height={894}

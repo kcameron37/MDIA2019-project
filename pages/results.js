@@ -28,7 +28,7 @@ export default function Results() {
       <div className={styles.main}>
         <Footer />
         <div className={styles.infoBackground}>
-          <Image src="/images/homepage1.png" alt="Info" width={414} height={894} />
+          <Image src="/images/homePage1.png" alt="Info" width={414} height={894} />
           <div className={styles.container}>
             <div>
               <h1>Let's find you help</h1>
