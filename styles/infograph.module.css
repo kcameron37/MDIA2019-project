@@ -6,20 +6,7 @@
 .main{
   position: fixed;
 }
-.text {
-    position: absolute;
-    bottom: 120px;
-    text-align: center;
-    margin: 8%;
-    padding: 4%;
-    background-color: transparent;
-    color: white;
-    font-size: 2rem;
-    font-size: 25px;
-    background-color: var(--secondary-color);
-    border-radius: 20px;
-    border: 10px solid white;
-  }
+
 
   .arrow{
     position: absolute;
@@ -31,4 +18,22 @@
     position: fixed;
     top: 10px;
     left: 5px
+  }
+
+  .container{
+    position: fixed;
+    left: -150px;
+    top: 50px;
+    color: white;
+    margin: 40%;
+    font-size: 15px;
+    text-align: center;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    border: 5px solid;
+    padding: 2%
+  }
+
+  .graph{
+    border-radius: 20px;
   }

@@ -54,9 +54,7 @@ export default function Home() {
               </div>
               <div className={styles.header}>
                 <p className={styles.paragraph}>
-                  We are here to help,
-                  <br />
-                  so let's get started
+                  We are here to help, so let's get started
                 </p>
               </div>
               <div className={styles.mainButton}>

@@ -25,9 +25,13 @@ export default function InfoGraph() {
           width={414}
           height={894}
         />
+        <div className={styles.container}>
+          <h2>Did you know homelessness in on the rise in Canada</h2>
+        </div>
 
+        <div className={styles.graph}>
         <BarGraph/>
-
+        </div>
 
           <div className={styles.arrow}>
           <Link href="/homePage">
