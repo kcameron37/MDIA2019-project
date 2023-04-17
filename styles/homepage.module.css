@@ -1,24 +1,23 @@
 .container{
 position: fixed;
-top: 400px
+top: 400px;
+color: white;
+margin: 8%;
+text-align: center;
 }
 
-.buttonQuiz{
+.buttonQuiz1{
     position: fixed;
-    top: 300px;
-     padding: 50%;
+    top: 250px;
+    left: -35px;
+     padding: 20px;
 
 }
 
 .buttonLearn{
     position: fixed;
-    top: 390px;
-    left: 10px;
+    top: 350px;
+    right: 120px;
     padding: 40%;
 }
 
-.container{
-    color: white;
-    margin: 5%;
-    text-align: center;
-}

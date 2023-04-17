@@ -59,9 +59,11 @@ export default function Home() {
                   so let's get started
                 </p>
               </div>
+              <div className={styles.mainButton}>
               <Link href="/information">
               <Button text="Learn More" />
                 </Link>
+                </div>
             </div>
           </>
         )}
