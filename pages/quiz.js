@@ -4,6 +4,7 @@ import Button from '@/components/Button';
 import styles from '@/styles/quiz.module.css'
 import Navbar from '@/components/Footer';
 import Link from 'next/link';
+import PopUp from '@/components/popUp';
 
 export default function Quiz() {
     return(
@@ -15,6 +16,7 @@ export default function Quiz() {
                 <link rel="icon" href="/favicon.png" />
             </Head>
             <div className={styles.main}>
+                <PopUp/>
                 <div className={styles.container}>
                     <Image
                         src={"/favicon.png"}
