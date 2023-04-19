@@ -5,6 +5,7 @@ import Head from 'next/head';
 import Footer from '@/components/Footer';
 import React, { useState } from 'react';
 import { useRouter } from 'next/router';
+import PopUp from '@/components/popUp';
 
 export default function Quiz1() {
   const router = useRouter();
@@ -29,6 +30,7 @@ export default function Quiz1() {
         
       </Head>
       <div className={styles.main}>
+        <PopUp/>
         <div className={styles.container}>
           <Link className={styles.backButton} href="/..">
             <Image
