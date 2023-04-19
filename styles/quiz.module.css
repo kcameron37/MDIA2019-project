@@ -41,8 +41,17 @@
     font-size: 25pt;
 }
 
+.button:active {
+    transform: translateY(4px);
+}
+
 .quizButton {
     background-color: var(--ternary-color);
+}
+
+.quizButton:hover {
+    background-color: #204655;
+    transition: 0.1s;
 }
 
 .submitButton {
@@ -53,4 +62,8 @@
     position: absolute;
     top: 2%;
     left: 4%
+}
+
+.backButton:active {
+    transform: translateY(4px);
 }

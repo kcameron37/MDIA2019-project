@@ -18,4 +18,6 @@
     background-color: var(--secondary-color);
   }
 
-  
+.buttonLarge:active {
+  transform: translateY(4px);
+}

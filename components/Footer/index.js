@@ -8,7 +8,7 @@ export default function Footer() {
       <nav className={styles.nav}>
         <ul className={styles.navList}>
           <li className={styles.navListItem}>
-            <Link href="/homePage">
+            <Link href="/">
               <p>Home</p>
             </Link>
           </li>
