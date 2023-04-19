@@ -1,10 +1,12 @@
-  .footer {
+.header {
     position: fixed;
-    bottom: 0;
+    top: 0;
     left: 0;
     width: 100%;
-    background-color: var(--secondary-color);
+    background-color: var(--quaternary-color);
     border-top: 1px solid #e6e6e6;
+    height: 80px;
+    
   }
   
   .nav {
@@ -29,4 +31,8 @@
     font-weight: 500;
     font-size: 16px;
     text-decoration: none;
+  }
+
+  .logo{position: fixed;
+  left: 200px;
   }
