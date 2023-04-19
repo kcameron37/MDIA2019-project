@@ -9,7 +9,7 @@ export default function Arrow({ onClick, text }) {
  
 
       <Image
-        src="/icons/arrow-white.svg"
+        src="/icons/next-button-orange.svg"
         alt="Next"
         width={50} 
         height={50}

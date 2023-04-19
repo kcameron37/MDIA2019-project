@@ -9,8 +9,8 @@ export default function BackArrow({ onClick, text }) {
  
 
       <Image
-        src="/icons/back-arrow-white.svg"
-        alt="Next"
+        src="/icons/back-button-orange.png"
+        alt="Back"
         width={50} 
         height={50}
       />

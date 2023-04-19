@@ -5,7 +5,7 @@ import Arrow from '@/components/Arrow';
 import Navbar from '@/components/Footer';
 import BackArrow from '@/components/BackArrow';
 import Link from 'next/link';
-
+import Header from '@/components/Header';
 
 export default function InformationTwo() {
   return (
@@ -18,7 +18,7 @@ export default function InformationTwo() {
       </Head>
       <div className={styles.main}>
       <div className={styles.infoBackground}>
-
+    <Header/>
     <Navbar/>
 
         <Image

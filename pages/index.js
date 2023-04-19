@@ -4,7 +4,7 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Head from 'next/head';
 import Button from '@/components/Button';
-import Layout from './layout';
+
 
 export default function Home() {
   const [showLogo, setShowLogo] = useState(true);
@@ -64,9 +64,9 @@ export default function Home() {
                 </Link>
                 </div>
             </div>
-            <Layout>
-              <h1>Support Page</h1>
-            </Layout>
+          
+         
+          
           </>
         )}
       </div>

@@ -6,6 +6,7 @@ import Link from 'next/link';
 import BackArrow from '@/components/BackArrow';
 import Navbar from '@/components/Footer';
 import BarGraph from '@/components/BarGraph';
+import Header from '@/components/Header';
 
 export default function InfoGraph() {
   return (
@@ -17,6 +18,7 @@ export default function InfoGraph() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className={styles.main}>
+        <Header/>
       <Navbar/>
       <div className={styles.infoBackground}>
         <Image
