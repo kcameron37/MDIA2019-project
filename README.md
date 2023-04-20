@@ -16,6 +16,6 @@ react.js
  npx create-next-app
  npm install
  npm run dev 
- 
+ npm i react-chartjs-2
  
 
