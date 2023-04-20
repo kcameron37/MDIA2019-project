@@ -3,7 +3,6 @@ import styles from '../styles/homepage.module.css';
 import Head from 'next/head';
 import Link from 'next/link';
 import Header from '@/components/Header';
-
 import Button from '@/components/Button';
 
 
@@ -11,7 +10,7 @@ export default function HomePage() {
   return (
     <>
      <Head>
-        <title>Home HomePage - Open Doors</title>
+        <title> Main - Open Doors</title>
         <meta name="description" content="Unlocking a better tomorrow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />

@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Open Doors</title>
+        <title>Home - Open Doors</title>
         <meta name="description" content="Unlocking a better tomorrow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
