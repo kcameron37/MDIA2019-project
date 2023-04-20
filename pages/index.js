@@ -5,18 +5,24 @@ import styles from '../styles/Home.module.css';
 import Head from 'next/head';
 import Button from '@/components/Button';
 
-
 export default function Home() {
-  const [showLogo, setShowLogo] = useState(true);
-  const [animationClass, setAnimationClass] = useState('');
+  const [animationClass, setAnimationClass] = useState(styles.hide);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setAnimationClass(styles.slideDown);
-      setShowLogo(false);
-    }, 6000);
+      setAnimationClass(styles.fadeIn);
+    }, 3000);
 
     return () => clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
+    const loadingTimer = setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+
+    return () => clearTimeout(loadingTimer);
   }, []);
 
   return (
@@ -28,17 +34,47 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className={`${styles.container} ${animationClass}`}>
-        {showLogo ? (
-          <Image
-            src="/logo/front-logo.png"
-            alt="Logo"
-            className={styles.logo}
-            width={300}
-            height={300}
-          />
+        {loading ? (
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
+              alignItems: 'center',
+              height: '100vh',
+            }}
+          >
+            <Image
+              src="/logo/front-logo.png"
+              alt="Logo"
+              className={styles.logo}
+              width={300}
+              height={300}
+            />
+            <div
+              style={{
+                marginTop: '100px',
+                border: '5px solid rgba(0, 0, 0, 0.1)',
+                borderLeftColor: 'orange',
+                borderRadius: '50%',
+                width: '50px',
+                height: '50px',
+                animation: 'spin 1s linear infinite',
+              }}
+            ></div>
+            <style jsx global>{`
+              @keyframes spin {
+                0% {
+                  transform: rotate(0deg);
+                }
+                100% {
+                  transform: rotate(360deg);
+                }
+              }
+            `}</style>
+          </div>
         ) : (
           <>
-          
             <div className={styles.homeImage} />
             <div className={styles.backgroundImage}>
               <Image
@@ -59,14 +95,11 @@ export default function Home() {
                 </p>
               </div>
               <div className={styles.mainButton}>
-              <Link href="/information">
-              <Button text="Learn More" />
+                <Link href="/information">
+                  <Button text="Learn More" />
                 </Link>
-                </div>
+              </div>
             </div>
-          
-         
-          
           </>
         )}
       </div>

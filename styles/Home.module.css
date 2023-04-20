@@ -68,12 +68,27 @@ left: -50px;
 .slideDown {
   animation: slideDown 0.5s ease forwards;
 }
+.fadeIn {
+  animation: fadeIn 1s ease-out forwards;
+}
 
-@keyframes slideDown {
-  from {
-    transform: translateY(-100%);
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  to {
-    transform: translateY(0%);
+  100% {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
