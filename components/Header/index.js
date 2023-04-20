@@ -13,22 +13,6 @@ export default function Header() {
           alt="Top logo"
         />
       </Link>  
-      <Link href="/">
-        <Image
-          src="/logo/top-logo.svg"
-          width={60}
-          height={60}
-          alt="Top logo"
-        />
-      </Link>  
-      <Link href="/">
-        <Image
-          src="/logo/top-logo.svg"
-          width={60}
-          height={60}
-          alt="Top logo"
-        />
-      </Link>  
     </header>
   );
 }
