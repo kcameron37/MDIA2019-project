@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import Button from '@/components/Button';
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
+import Header from '@/components/Header';
 
 export default function Results() {
   const router = useRouter();
@@ -16,7 +17,7 @@ export default function Results() {
   const mealsPerDay = answer3 === 'less' ? '1 or less' : '3 or more';
   const safePlaceTonight = answer4 === 'YesSafe' ? 'Yes' : 'No';
   const income = answer5 === 'Over' ? '$18,000 or over' : 'Under $18,000';
-  
+
   return (
     <>
       <Head>
@@ -25,6 +26,7 @@ export default function Results() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
+      <Header />
       <div className={styles.main}>
         <Footer />
         <div className={styles.infoBackground}>
@@ -37,7 +39,7 @@ export default function Results() {
               <p>How many meals do you eat a day? {mealsPerDay}</p>
               <p>Do you have a safe place to stay tonight? {safePlaceTonight}</p>
               <p>What is your yearly income? {income}</p>
-            
+
             </div>
           </div>
         </div>
