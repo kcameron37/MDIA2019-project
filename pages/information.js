@@ -38,7 +38,6 @@ export default function Information() {
           </div>
           <div className={styles.backarrow}>
           <Link href="/">
-          <BackArrow/>
           </Link>
           </div>
       </div>
