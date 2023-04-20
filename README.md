@@ -13,9 +13,9 @@ JavaScript
 react.js
 
 ## Commands
- npx create-next-app
+ npx create-next-app 
  npm install
  npm run dev 
  npm i react-chartjs-2
  
-
+## Data 
