@@ -1,44 +1,28 @@
-.container{
-position: absolute;
-top: 400px;
-color: white;
-margin: 6%;
-text-align: center;
-font-size: 2rem;
-}
-
-.text{
-    position: fixed;
-    top: 490px;
-    color: white;
-    margin: 6%;
-    text-align: center;
-   
-    }
-
-.buttonQuiz1{
-    position: fixed;
-    top: 280px;
-    left: -40px;
-     padding: 20px;
-
-}
-
-.buttonLearn{
-    position: fixed;
-    top: 390px;
-    right: 125px;
-    padding: 40%;
-}
-
-
-.infoBackground {
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    top: 20px;
-    margin-top: 20px;
-    z-index: -1;
-    }
+    padding: 0%;
+    background-color: var(--ternary-color);
+    flex-direction: column;
+}
 
-.header{
-    z-index: 1000;
+.text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin: 2%;
+}
+
+.name{
+    font-size: 60px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

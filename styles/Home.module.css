@@ -6,20 +6,7 @@
   position: relative;
   padding:0%;
   background-color: var( --ternary-color);
-}
-
-.main{
-  position: fixed;
-}
-
-.logo {
-  max-width: 100%;
-  max-height: 100%;
-  display: block;
-}
-
-.paragraph {
-  text-align: center;
+  flex-direction: column;
 }
 
 .text {
@@ -33,10 +20,6 @@
 .pageContainer{
   display: flex;
   flex-direction: column;
-}
-
-.mainButton{
-  margin-bottom: 2em;
 }
 
 .slideDown {

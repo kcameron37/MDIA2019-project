@@ -81,21 +81,18 @@ export default function Home() {
               <Image
                 src="/images/home-background-small.png"
                 alt="Home"
-                className={styles.logo}
                 width={414}
                 height={530}
               />
               <div className={styles.text}>
                 <h2>Welcome to </h2>
                 <h1> Open Doors</h1>
-                <p className={styles.paragraph}>
+                <p>
                   Unlocking a better tomorrow, <br></br>so let's get started today
                 </p>  
-                <div className={styles.mainButton}>
                   <Link href="/information">
                     <Button text="Learn More" />
-                  </Link>
-                </div>  
+                  </Link> 
               </div>
             </div>
           </>

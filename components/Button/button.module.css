@@ -1,16 +1,17 @@
 .buttonLarge {
-    background-color: var(--primary-color);
-    border: 5px solid white;
-    color: white;
-     width: 300px;
-     height: 75px;
-    text-align: center;
-     border-radius: 25px;
-    border: none;
-   font-family: 'Sanchez';
-    font-size: 25pt;
-    transition: all 0.2s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: var(--primary-color);
+  border: 5px solid white;
+  color: white;
+  width: 300px;
+  height: 75px;
+  text-align: center;
+  border-radius: 25px;
+  border: none;
+  font-family: 'Sanchez';
+  font-size: 25pt;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 2%;
   }
   
   .buttonLarge:hover {
