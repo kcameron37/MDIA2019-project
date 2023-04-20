@@ -19,27 +19,26 @@
   display: block;
 }
 
-.header {
-  text-align: center;
-}
 
 .paragraph {
   text-align: center;
+
 }
 
 
 
 .text {
   position: absolute;
-  top: 420px;
+  top: 500px;
   background-color: transparent;
   color: white;
   font-size: 2rem;
-}
+ text-align: center;
+ }
 
 .backgroundImage{
   position: absolute;
-  top: 0px;
+  top: 25px;
 }
 
 
@@ -60,10 +59,12 @@
 
 .mainButton{
 position: fixed;
-top: 365px;
+top: 400px;
 left: -50px;
 
 }
+
+
 
 .slideDown {
   animation: slideDown 0.5s ease forwards;

@@ -4,6 +4,7 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Head from 'next/head';
 import Button from '@/components/Button';
+import Header from '@/components/Header';
 
 export default function Home() {
   const [animationClass, setAnimationClass] = useState(styles.hide);
@@ -77,6 +78,7 @@ export default function Home() {
           <>
             <div className={styles.homeImage} />
             <div className={styles.backgroundImage}>
+              <Header/>
               <Image
                 src="/images/home-background.png"
                 alt="Home"
@@ -87,11 +89,12 @@ export default function Home() {
             </div>
             <div className={styles.text}>
               <div className={styles.header}>
-                <h1 className={styles.header}>Welcome to Open Doors!</h1>
+              <h2>Welcome to </h2>
+                <h1> Open Doors</h1>
               </div>
               <div className={styles.header}>
                 <p className={styles.paragraph}>
-                  We are here to help, so let's get started
+                Unlocking a better tomorrow, <br></br>so let's get started today
                 </p>
               </div>
               <div className={styles.mainButton}>
