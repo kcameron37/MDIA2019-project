@@ -76,31 +76,26 @@ export default function Home() {
           </div>
         ) : (
           <>
-            <div className={styles.homeImage} />
-            <div className={styles.backgroundImage}>
+            <div className={styles.pageContainer}>
               <Header/>
               <Image
-                src="/images/home-background.png"
+                src="/images/home-background-small.png"
                 alt="Home"
                 className={styles.logo}
                 width={414}
-                height={894}
+                height={530}
               />
-            </div>
-            <div className={styles.text}>
-              <div className={styles.header}>
-              <h2>Welcome to </h2>
+              <div className={styles.text}>
+                <h2>Welcome to </h2>
                 <h1> Open Doors</h1>
-              </div>
-              <div className={styles.header}>
                 <p className={styles.paragraph}>
-                Unlocking a better tomorrow, <br></br>so let's get started today
-                </p>
-              </div>
-              <div className={styles.mainButton}>
-                <Link href="/information">
-                  <Button text="Learn More" />
-                </Link>
+                  Unlocking a better tomorrow, <br></br>so let's get started today
+                </p>  
+                <div className={styles.mainButton}>
+                  <Link href="/information">
+                    <Button text="Learn More" />
+                  </Link>
+                </div>  
               </div>
             </div>
           </>
