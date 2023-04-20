@@ -14,7 +14,7 @@ export default function PopUp() {
             alt="Warning" 
             className={styles.warningImage}
              />
-            <p className={styles.warningText}>Warning</p>
+            <h1 className={styles.warningText}>Warning</h1>
             
             <p className={styles.text}>If you require immediate assistance, please contact emergency services by dialing 911  </p>
             <h3 className={styles.close} onClick={() => setPopup(false)}>Close</h3>
