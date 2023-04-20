@@ -18,7 +18,8 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     margin: 10%;
-    background-color: white;
+    background-color: var(--ternary-color);
+    color: white;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -35,7 +36,7 @@
   
   .warningText {
     padding-top: 10%;
-    color: red;
+    color: var(--secondary-color);
     font-weight: bold;
     text-align: center;
     margin-top: 10px;
@@ -43,4 +44,5 @@
 
   .close{
     padding-top: 30%;
+    color: var(--secondary-color);
   }
