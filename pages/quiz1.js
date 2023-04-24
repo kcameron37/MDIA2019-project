@@ -39,7 +39,7 @@ export default function Quiz1() {
               height={50}
             />
           </Link>
-          <Link href="/">
+          <Link className={styles.home} href="/">
             <Image
               src={"/logo/top-logo.svg"}
              width={75}
