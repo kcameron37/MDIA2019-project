@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from '../styles/homepage.module.css';
+import styles from '../styles/results.module.css';
 import Head from 'next/head';
 import Link from 'next/link';
 import Footer from '@/components/Footer';
@@ -7,6 +7,7 @@ import Button from '@/components/Button';
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Header from '@/components/Header';
+import Accordion from '@/components/Accordian';
 
 export default function Results() {
   const router = useRouter();
@@ -39,6 +40,8 @@ export default function Results() {
               <p>How many meals do you eat a day? {mealsPerDay}</p>
               <p>Do you have a safe place to stay tonight? {safePlaceTonight}</p>
               <p>What is your yearly income? {income}</p>
+
+              <Accordion/>
 
             </div>
           </div>
