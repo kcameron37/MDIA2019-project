@@ -46,10 +46,10 @@ export default function Home() {
             }}
           >
             <Image
-              src="/logo/front-logo.png"
+              src="/logo/loadingTwo.png"
               alt="Logo"
               className={styles.logo}
-              width={300}
+              width={414}
               height={300}
             />
             <div
