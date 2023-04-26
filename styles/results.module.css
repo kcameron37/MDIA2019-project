@@ -27,7 +27,7 @@
     align-items: center;
   }
   
-  /* Add the following styles to the CSS file */
+
   .infoBackground {
     display: flex;
     justify-content: center;
@@ -50,6 +50,6 @@
     max-width: 90%;
     text-align: center;
     padding: 2rem;
-    background-color: rgba(255, 255, 255, 0.9); /* You can adjust the opacity to your preference */
+    background-color: rgba(255, 255, 255, 0.9); 
     border-radius: 1rem;
   }
