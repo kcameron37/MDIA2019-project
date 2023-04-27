@@ -48,11 +48,11 @@ export default function Home() {
             }}
           >
             <Image
-              src="/logo/loadingTwo.png"
+              src="/logo/top-logo.svg"
               alt="Logo"
               className={styles.logo}
-              width={414}
-              height={300}
+              width={200}
+              height={115}
             />
             <div
               style={{
