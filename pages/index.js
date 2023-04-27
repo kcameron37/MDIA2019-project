@@ -26,6 +26,8 @@ export default function Home() {
     return () => clearTimeout(loadingTimer);
   }, []);
 
+  var name = process.env.NEXT_PUBLIC_NAME;
+  
   return (
     <>
       <Head>
