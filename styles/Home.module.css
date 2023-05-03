@@ -11,7 +11,7 @@
 
 .text {
   display: flex;
-  color: white;
+  color: var(--senary-color);
   font-size: 2rem;
   text-align: center;
   flex-direction: column;

@@ -21,7 +21,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 4%;
-    color: white;
+    color: var(--senary-color);
 }
 
 .answers {
@@ -37,7 +37,7 @@
     height: 100px;
     border-radius: 25px;
     border: none;
-    color: white;
+    color:  var(--senary-color);
     font-family: 'Sanchez';
     font-size: 25pt;
 }
@@ -51,7 +51,7 @@
 }
 
 .quizButton:hover {
-    background-color: #204655;
+    background-color: var(--septenary-color);
     transition: 0.1s;
 }
 
