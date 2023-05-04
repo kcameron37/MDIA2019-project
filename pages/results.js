@@ -4,11 +4,10 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Footer from '@/components/Footer';
 import Button from '@/components/Button';
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Header from '@/components/Header';
 import Accordion from '@/components/Accordian';
-import data from '../data/data';
 
 export default function Results() {
   const router = useRouter();
@@ -19,29 +18,6 @@ export default function Results() {
   const mealsPerDay = answer3 === 'less' ? '1 or less' : '3 or more';
   const safePlaceTonight = answer4 === 'YesSafe' ? 'Yes' : 'No';
   const income = answer5 === 'Over' ? '$18,000 or over' : 'Under $18,000';
-
-  const getResources = () => {
-    if (data && age === "Under 18") {
-      return data.map((resource) => {
-        if (resource.ageGroup === age) {
-          return (
-            <div key={resource.name}>
-              <h2>{resource.name}</h2>
-              <p>
-                Website: <a href={resource.website}>{resource.website}</a>
-              </p>
-              <p>Phone Number: {resource.phoneNumber}</p>
-              <p>Address: {resource.address}</p>
-              <p>Description: {resource.description}</p>
-            </div>
-          );
-        }
-        return null;
-      });
-    } else {
-      return null;
-    }
-  };
 
   return (
     <>
@@ -65,7 +41,8 @@ export default function Results() {
               <p>Do you have a safe place to stay tonight? {safePlaceTonight}</p>
               <p>What is your yearly income? {income}</p>
 
-              {getResources()}
+              <Accordion/>
+
             </div>
           </div>
         </div>
