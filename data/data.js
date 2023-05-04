@@ -6,7 +6,7 @@ const data = {
       phoneNumber: "1-877-685-7474",
       address: "1280 Seymour St, Vancouver, BC V6B 3N9",
       description:
-        "At Covenant House’s Crisis Program, we welcome young people, aged 16 to 24, who are at risk of, or are experiencing, homelessness. Our first priority is to meet young people’s basic needs, a safe space to sleep, nutritious food, warm clothing, and showers",
+        "At Covenant House Crisis Program, we welcome young people, aged 16 to 24, who are at risk of, or are experiencing, homelessness. Our first priority is to meet young people’s basic needs, a safe space to sleep, nutritious food, warm clothing, and showers",
     },
     {
       name: "Directions Youth Haven",
@@ -38,7 +38,7 @@ const data = {
     {
       name: "Greater Vancouver Food Bank",
       website: "https://foodbank.bc.ca/find-food/locations/",
-      phoneNumber: "604.876.3601",
+      phoneNumber: "604-876-3601",
       address: "8345 Winston Street Burnaby, BC V5A 2H3",
       description: "Providing Healthy Food to Those in Need.",
     },
@@ -64,7 +64,7 @@ const data = {
     {
       name: "Belkin House Vancouver",
       website:"https://belkinhousesa.ca/",
-      phoneNumber: "(604) 681-3405",
+      phoneNumber: "604 681-3405",
       address: "555 Homer Street, Vancouver",
       description:
         "We provide a clean, safe, secure, and comfortable accommodation for those who have come down on hard times.",

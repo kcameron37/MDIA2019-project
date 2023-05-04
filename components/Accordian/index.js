@@ -1,43 +1,104 @@
-import styles from './accordian.module.css';
 import React, { useState } from 'react';
+import styles from './accordian.module.css';;
+import Link from 'next/link';
 
-export default function Accordian({data }) {
+export default function Accordion({ title, content }) {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleAccordion = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
-    <>
-      {data.map((resource, index) => (
-        <div key={index} className={styles.accordion}>
-          <div className={styles.accordionHeader} onClick={toggleAccordion}>
-            <h3>{resource.name}</h3>
-            <div className={styles.toggleIcon}>{isOpen ? '-' : '+'}</div>
+    <div className={styles.accordion}>
+      <div className={styles.title} onClick={() => setIsOpen(!isOpen)}>
+        {title}
+      </div>
+      {isOpen &&
+        <div className={styles.content}>
+          {content}
+          <div>
+            <h2>Results</h2>
+            <p>Under 18:</p>
+            <Link
+              href="https://www.covenanthousebc.org/programs-services/housing/crisis-program/">
+              <p>Coventent House Youth Crisis Program</p> 
+            </Link>
+            <p>
+              Phone Number: 1-866-866-0800
+              <br/>
+              Address: 1280 Seymour St, Vancouver, BC V6B 3N9
+              <br />
+              Description: At Covenant House Crisis Program, we welcome young people, aged 16 to 24, who are at risk of, or are experiencing, homelessness. Our first priority is to meet young people's basic needs, a safe space to sleep, nutritious food, warm clothing, and showers
+            </p>
           </div>
-          {isOpen && (
-            <div className={styles.accordionBody}>
-              <p>
-                <strong>Website: </strong>
-                <a href={resource.website} target="_blank" rel="noopener noreferrer">
-                  {resource.website}
-                </a>
-              </p>
-              <p>
-                <strong>Phone Number: </strong>
-                {resource.phoneNumber}
-              </p>
-              <p>
-                <strong>Address: </strong>
-                {resource.address}
-              </p>
-              <p>{resource.description}</p>
-            </div>
-          )}
-        </div>
-      ))}
-    </>
+          <div>
+            <p>Social Assistance:</p>
+            <Link
+              href="https://www2.gov.bc.ca/gov/content/family-social-supports/income-assistance/apply-for-assistance">
+              <p>BC Income Assistance Application</p> 
+            </Link>
+            <p>
+              Phone Number: 1-877-685-7474
+              <br/>
+              Address: 180 Main St Vancouver BC V6A 3V5
+              <br />
+              Description: Access Low-income support in British Columbia by applying today
+            </p>
+          </div>
+          <div>
+            <p>Food:</p>
+            <Link
+              href="https://foodbank.bc.ca/find-food/locations/">
+              <p>Greater Vancouver Food Bank</p> 
+            </Link>
+            <p>
+              Phone Number: 604-876-3601
+              <br/>
+              Address: 8345 Winston Street Burnaby, BC V5A 2H3
+              <br />
+              Description: Providing Healthy Food to Those in Need
+            </p>
+          </div>
+          <div>
+            <p>Shelter:</p>
+            <Link
+              href="https://belkinhousesa.ca/">
+              <p>Belkin House Vancouver</p> 
+            </Link>
+            <p>
+              Phone Number: 604 681-3405
+              <br/>
+              Address: 555 Homer Street, Vancouver
+              <br />
+              Description: We provide a clean, safe, secure, and comfortable accommodation for those who have come down on hard times.
+            </p>
+          </div>
+          <div>
+            <p>Shelter:</p>
+            <Link
+              href="https://belkinhousesa.ca/">
+              <p>Belkin House Vancouver</p> 
+            </Link>
+            <p>
+              Phone Number: 604 681-3405
+              <br/>
+              Address: 555 Homer Street, Vancouver
+              <br />
+              Description: We provide a clean, safe, secure, and comfortable accommodation for those who have come down on hard times.
+            </p>
+          </div>
+          <div>
+            <p>Income:</p>
+            <Link
+              href="https://www.heretohelp.bc.ca/q-and-a/how-do-i-apply-for-income-assistance">
+              <p>Here to help BC</p> 
+            </Link>
+            <p>
+              Phone Number: 604-669-7600
+              <br/>
+              Address: 905-1130 West Pender St, Vancouver, BC, V6E 4A4
+              <br />
+              Description: Here to help will help you navigate through the Provincial income assistance, which has three income levels: basic assistance (also called welfare), Persons with Disabilities benefits (PWD), and the Persons with Persistent and Multiple Barriers to employment benefits.
+            </p>
+          </div>
+        </div>}
+    </div>
   );
-};
-
+}
