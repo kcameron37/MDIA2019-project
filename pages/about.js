@@ -18,7 +18,7 @@ export default function About() {
       <div className={styles.container}> 
         <Header />
         <Image
-            src="/images/homepage-small.png"
+            src="/images/aboutUs.png"
             alt="Info"
             width={414}
             height={530}

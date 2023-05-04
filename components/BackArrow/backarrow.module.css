@@ -1,3 +1,4 @@
 .arrowContainer{
     transform: rotate(180deg);
+    max-width: 414px;
 }

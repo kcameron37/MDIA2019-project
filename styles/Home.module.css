@@ -7,7 +7,8 @@
   padding:0%;
   background-color: var( --ternary-color);
   flex-direction: column;
-}
+  width: 414px;
+ }
 
 .text {
   display: flex;
@@ -20,6 +21,7 @@
 .pageContainer{
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .slideDown {

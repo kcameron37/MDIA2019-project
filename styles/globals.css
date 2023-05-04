@@ -6,7 +6,11 @@
 
 * {
   box-sizing: border-box;
+  max-width: 414px;
+  max-height: 896px;
+  margin: 0px;
 }
+
 
 h1{
   font-family: 'Sanchez';
