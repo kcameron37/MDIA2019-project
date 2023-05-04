@@ -1,8 +1,7 @@
 .container {
-    min-height: 100vh;
+    min-height: 500px;
     display: flex;
     align-items: center;
-    justify-content: center;
     position: relative;
     padding: 0%;
     background-color: var(--ternary-color);
@@ -27,26 +26,7 @@
     align-items: center;
   }
   
-
-  .infoBackground {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .infoBackground img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
   .innerContainer {
-    z-index: 1;
     max-width: 90%;
     text-align: center;
     padding: 2rem;

@@ -29,24 +29,26 @@ export default function Results() {
       </Head>
       <Header />
       <div className={styles.main}>
-        <Footer />
-        <div className={styles.infoBackground}>
-          <Image src="/images/homePage1.png" alt="Info" width={414} height={894} />
-          <div className={styles.container}>
-            <div>
-              <h1>Let's find you help</h1>
-              <p>How old are you? {age}</p>
-              <p>In the past have you used social assistance? {socialAssistance}</p>
-              <p>How many meals do you eat a day? {mealsPerDay}</p>
-              <p>Do you have a safe place to stay tonight? {safePlaceTonight}</p>
-              <p>What is your yearly income? {income}</p>
+        <Image
+          src="/images/homepage-small.png"
+          width={414}
+          height={530}
+        />
+        <div className={styles.container}>
+          <div className={styles.text}>
+            <h1>Let's find you help</h1>
+            <p>How old are you? <br/> {age}</p>
+            <p>In the past have you used social assistance? <br/> {socialAssistance}</p>
+            <p>How many meals do you eat a day? <br/> {mealsPerDay}</p>
+            <p>Do you have a safe place to stay tonight? <br/> {safePlaceTonight}</p>
+            <p>What is your yearly income? <br/> {income}</p>
 
-              <Accordion/>
-
-            </div>
+            <Accordion/>
+            
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

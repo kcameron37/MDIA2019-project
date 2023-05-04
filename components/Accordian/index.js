@@ -2,20 +2,18 @@ import React, { useState } from 'react';
 import styles from './accordian.module.css';;
 import Link from 'next/link';
 
-export default function Accordion({ title, content }) {
+export default function Accordion() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className={styles.accordion}>
       <div className={styles.title} onClick={() => setIsOpen(!isOpen)}>
-        {title}
+        <h1>View Results</h1>
       </div>
       {isOpen &&
         <div className={styles.content}>
-          {content}
-          <div>
-            <h2>Results</h2>
-            <p>Under 18:</p>
+          <div className={styles.item}>
+            <h2>Under 18:</h2>
             <Link
               href="https://www.covenanthousebc.org/programs-services/housing/crisis-program/">
               <p>Coventent House Youth Crisis Program</p> 
@@ -28,8 +26,8 @@ export default function Accordion({ title, content }) {
               Description: At Covenant House Crisis Program, we welcome young people, aged 16 to 24, who are at risk of, or are experiencing, homelessness. Our first priority is to meet young people's basic needs, a safe space to sleep, nutritious food, warm clothing, and showers
             </p>
           </div>
-          <div>
-            <p>Social Assistance:</p>
+          <div className={styles.item}>
+            <h2>Social Assistance:</h2>
             <Link
               href="https://www2.gov.bc.ca/gov/content/family-social-supports/income-assistance/apply-for-assistance">
               <p>BC Income Assistance Application</p> 
@@ -42,8 +40,8 @@ export default function Accordion({ title, content }) {
               Description: Access Low-income support in British Columbia by applying today
             </p>
           </div>
-          <div>
-            <p>Food:</p>
+          <div className={styles.item}>
+            <h2>Food:</h2>
             <Link
               href="https://foodbank.bc.ca/find-food/locations/">
               <p>Greater Vancouver Food Bank</p> 
@@ -56,8 +54,8 @@ export default function Accordion({ title, content }) {
               Description: Providing Healthy Food to Those in Need
             </p>
           </div>
-          <div>
-            <p>Shelter:</p>
+          <div className={styles.item}>
+            <h2>Shelter:</h2>
             <Link
               href="https://belkinhousesa.ca/">
               <p>Belkin House Vancouver</p> 
@@ -70,8 +68,8 @@ export default function Accordion({ title, content }) {
               Description: We provide a clean, safe, secure, and comfortable accommodation for those who have come down on hard times.
             </p>
           </div>
-          <div>
-            <p>Shelter:</p>
+          <div className={styles.item}>
+            <h2>Shelter:</h2>
             <Link
               href="https://belkinhousesa.ca/">
               <p>Belkin House Vancouver</p> 
@@ -84,8 +82,8 @@ export default function Accordion({ title, content }) {
               Description: We provide a clean, safe, secure, and comfortable accommodation for those who have come down on hard times.
             </p>
           </div>
-          <div>
-            <p>Income:</p>
+          <div className={styles.item}>
+            <h2>Income:</h2>
             <Link
               href="https://www.heretohelp.bc.ca/q-and-a/how-do-i-apply-for-income-assistance">
               <p>Here to help BC</p> 
