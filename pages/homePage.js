@@ -28,7 +28,7 @@ export default function HomePage() {
           <h2> Together, lets unlock a better tomorrow!</h2>
         </div>     
         <div className={styles.buttons}>
-          <Link href="/quiz1">
+          <Link href="/support">
             <Button text="Find Help" />
           </Link>
           <Link href="/quiz1">

@@ -118,7 +118,7 @@ const Dropdown = () => {
         />
         <div className={styles.dropdown}>
           <label className={styles.title} htmlFor="options">Select an option:</label>
-          <select id="options" onChange={handleOptionChange}>
+          <select className={styles.menu} id="options" onChange={handleOptionChange}>
             <option value="">--Select an option--</option>
             <option value="minor-young-adult-assistance">Minor/Young Adult Assistance</option>
             <option value="income-support">Income Support</option>
