@@ -1,6 +1,7 @@
 .container {
     background-color: var(--ternary-color);
     min-height: 1000px;
+    padding-bottom: 50px;
 }
 
 .title {
@@ -18,5 +19,13 @@
 }
 
 .text {
-    padding: 4%;
+    background-color: white;
+    color: var(--ternary-color);
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 4%;
+}
+
+.textBlock {
+    padding-top: 5%;
 }
