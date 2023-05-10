@@ -75,7 +75,7 @@ const LowIncomeHousing = () => (
 const LowIncomeFoodSupport = () => (
   <>
     <div className={styles.text}>
-      <div className={styles.text-block}>
+      <div className={styles.textBlock}>
         <h2>Greater Vancouver Food Bank</h2>
         <p>Phone Number: 604-876-3601</p>
         <p>Address: 8345 Winston Street Burnaby, BC V5A 2H3</p>
@@ -83,7 +83,7 @@ const LowIncomeFoodSupport = () => (
         <p><Link href="https://foodbank.bc.ca/find-food/locations/"><p>Click here to learn more</p></Link></p>
       </div>
       
-      <div className={styles.text-block}>
+      <div className={styles.textBlock}>
         <h2>The Dugout - Hot breakfast</h2>
         <p>Phone Number: -604-685-5239</p>
         <p>Address: 59 Powell St, Vancouver, BC V6A 1E9</p>

@@ -42,10 +42,8 @@ export default function Results() {
             <p>How many meals do you eat a day? <br/> {mealsPerDay}</p>
             <p>Do you have a safe place to stay tonight? <br/> {safePlaceTonight}</p>
             <p>What is your yearly income? <br/> {income}</p>
-
-            <Accordion/>
-            
           </div>
+            <Accordion/>
         </div>
       </div>
       <Footer />

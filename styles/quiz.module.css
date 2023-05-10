@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     background-color: var(--quinary-color);
+    padding-bottom: 25px;
 }
 
 .questionContainer {
