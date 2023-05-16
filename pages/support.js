@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import Image from 'next/image';
 import { useState } from 'react';
 import styles from 'styles/support.module.css'
+import Button from '@/components/Button';
 
 const MinorYoungAdultAssistance = () => (
   <>
@@ -130,6 +131,12 @@ const Dropdown = () => {
           {selectedOption === 'low-income-housing' && <LowIncomeHousing />}
           {selectedOption === 'low-income-food-support' && <LowIncomeFoodSupport />}
         </div>
+
+        <div className={styles.button}>
+                  <Link href="/about">
+                    <Button text="About Us" />
+                  </Link> 
+                  </div>
         <Footer/>
       </div>
     </>
