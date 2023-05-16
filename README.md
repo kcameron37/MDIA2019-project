@@ -43,3 +43,7 @@ react.js
 [Belkin House Vancouver] (https://belkinhousesa.ca/)
 
 [Here to help BC] (https://www.heretohelp.bc.ca/q-and-a/how-do-i-apply-for-income-assistance) 
+
+[React-chartjs-2] (https://react-chartjs-2.js.org/examples/)
+
+[Statistics Canada] (https://www.canada.ca/en/employment-social-development/programs/poverty-reduction/national-advisory-council/reports/2021-annual.html)
