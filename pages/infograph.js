@@ -28,7 +28,7 @@ export default function InfoGraph() {
             height={894}
           />
           <div className={styles.container}>
-            <h2>Did you know homelessness in on the rise in Canada</h2>
+            <h2>Did you know homelessness in on the rise in Canada?</h2>
           </div>
 
           <div className={styles.graph}>

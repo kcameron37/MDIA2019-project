@@ -22,9 +22,9 @@
   }
 
   .container{
-    position: fixed;
-    left: -150px;
-    top: 50px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
     color: var(--senary-color);
     margin: 40%;
     font-size: 15px;
@@ -32,9 +32,9 @@
     background-color: var(--secondary-color);
     border-radius: 20px;
     border: 5px solid;
-    padding: 2%
+    padding: 4%
   }
 
   .graph{
     border-radius: 20px;
-  }
+     }
