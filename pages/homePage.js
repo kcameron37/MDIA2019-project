@@ -25,7 +25,9 @@ export default function HomePage() {
         />
         <div className={styles.text}>
           <h1 className={styles.name} >Open Doors</h1>
-          <h2> Together, lets unlock a better tomorrow!</h2>
+          <br></br>
+          <h2> Together, Lets unlock a better tomorrow!</h2>
+          <br></br>
         </div>     
         <div className={styles.buttons}>
           <Link href="/support">

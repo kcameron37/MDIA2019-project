@@ -29,7 +29,8 @@ export default function Information() {
 
           <div className={styles.text}>
             <h2>Did you know,<br></br> you are not alone?</h2>
-            <p>10.8 % of familes in BC are classified low income and need additional support</p>
+            <br></br>
+            <p>Approximately 10.8% of families residing in BC fall under the low-income category and require supplementary financial assistance.</p>
           </div>
           <div className={styles.arrow}>
             <Link href="/informationTwo">

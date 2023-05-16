@@ -30,6 +30,7 @@ export default function InformationTwo() {
 
         <div className={styles.text}>
           <h2>You are not alone.</h2>
+          <br></br>
             <p> In 2022, 1 in 4 Canadians suffered from food-insecurity and did not know where their next meal was coming from</p>
              </div>
           <div className={styles.arrow}>
