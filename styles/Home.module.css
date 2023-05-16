@@ -16,6 +16,7 @@
   font-size: 2rem;
   text-align: center;
   flex-direction: column;
+  padding: 2%;
  }
 
 .pageContainer{
@@ -24,6 +25,15 @@
   align-items: center;
 }
 
+.para{
+  display: flex;
+  color: var(--senary-color);
+  font-size: 2rem;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
 .slideDown {
   animation: slideDown 0.5s ease forwards;
 }

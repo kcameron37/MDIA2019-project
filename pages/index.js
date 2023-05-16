@@ -89,13 +89,16 @@ export default function Home() {
               <div className={styles.text}>
                 <h2>Welcome to </h2>
                 <h1> Open Doors</h1>
-                <p>
-                  Unlocking a better tomorrow, <br></br>so let's get started today
+                </div>
+                <div className={styles.para}>
+                <p>Unlocking a better tomorrow, so let's get started today
                 </p>  
+                </div>
+                <div className={styles.button}>
                   <Link href="/information">
                     <Button text="Learn More" />
                   </Link> 
-              </div>
+                  </div>
             </div>
           </>
         )}
